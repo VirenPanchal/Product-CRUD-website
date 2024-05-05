@@ -13,7 +13,7 @@ public class ProductDto {
 	private String brand;
 	
 	@NotEmpty(message="The name is required")
-	private String category;
+	private String catagory;
 	
 	@Min(0)
 	private double price;
@@ -40,12 +40,12 @@ public class ProductDto {
 		this.brand = brand;
 	}
 
-	public String getCategory() {
-		return category;
+	public String getCatagory() {
+		return catagory;
 	}
 
-	public void setCategory(String category) {
-		this.category = category;
+	public void setCategory(String catagory) {
+		this.catagory = catagory;
 	}
 
 	public double getPrice() {
